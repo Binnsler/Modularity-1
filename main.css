@@ -1,0 +1,92 @@
+/* ADD YOUR STYLES HERE */
+.table-row {
+	border-bottom: 1px solid #cccccc;
+	padding-bottom: 100px;
+}
+td, th {
+	padding-bottom: 10px;
+	padding-top: 10px;
+
+}
+
+.table-heading {
+	border-bottom: 1px solid #cccccc;
+}
+
+.top-table td:first-child, .top-table th:first-child {
+padding-right: 50px;
+}
+
+.top-table td:nth-child(2n), .top-table th:nth-child(2n){
+padding-right: 100px;
+}
+
+.top-table td:nth-child(3n), .top-table th:nth-child(3n){
+padding-right: 130px;
+}
+
+.big-number{
+	font-size: 30px;
+	font-weight: bold;
+	margin: 0 auto;
+}
+
+.number-sub{
+	font-size: 15px;
+	color: #A4A4A4;
+	margin: 0 auto;
+}
+
+.col-3{
+	text-align: center;
+	padding: 20px 15px;
+	border-bottom: 1px solid #cccccc;
+	border-top: 1px solid #cccccc;
+}
+
+.blue-bar{
+	color: white;
+	background-color: #599ede;
+	border-radius: 5px;
+	padding: 4px;
+
+}
+
+#bar-table td{
+	width: 85%;
+	padding: 0px;
+	margin: 0px;
+}
+
+#bar-table th{
+	text-align: right;
+	padding: 10px;
+	width: 100px;
+}
+
+/*   LightBox   */
+
+body{
+	background-color: #595959;
+}
+
+.light-box{
+	background-color: #f5f5f5;
+	padding: 30px 45px;
+	border-radius: 5px;
+	position: fixed;
+	top: 30%;
+	left: 20%;
+	right: 20%;
+}
+
+.simple-button{
+	background-color: #ed818a;
+	color: white;
+	text-decoration: none;
+	padding: 8px 20px;
+	border-radius: 5px;
+	margin-top: -20px;
+	float: right;
+
+}
