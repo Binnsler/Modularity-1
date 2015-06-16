@@ -66,7 +66,7 @@ padding-right: 130px;
 
 /*   LightBox   */
 
-body{
+/*body{
 	background-color: #595959;
 }
 
@@ -87,6 +87,37 @@ body{
 	padding: 8px 20px;
 	border-radius: 5px;
 	margin-top: -20px;
-	float: right;
+	float: right;*/
 
+}
+/*   Facebook Post   */
+
+.normal-div{
+	position: relative;
+}
+.facebook-image{
+	/*position: relative;*/
+	float: left;
+}
+
+.facebook-post{
+	margin-left: 60px;
+}
+
+.profile-image{
+	float: left;
+}
+
+.profile-content{
+	overflow: hidden;
+	padding-left: 10px;
+}
+
+.cupcake-img{
+	float: left;
+}
+
+.top-cupcake{
+	overflow: hidden;
+	padding-left: 10px;
 }
